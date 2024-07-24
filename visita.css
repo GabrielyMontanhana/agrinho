@@ -1,0 +1,66 @@
+*{margin: 0%;}
+
+.cabeçario {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEsDWs4cqtIYV5NgUxZefbeWek61RX6hfouQ&usqp=CAU"); /*repetir imagem varias vezes*/
+    background-size: contain;
+    color: rgb(255, 255, 255); /*cor da letra*/
+    display: flex; /* ficar na frente*/
+    justify-content: space-between;
+    text-shadow: rgb(255, 0, 0) 1px 0 10px; /*cor em volta da letra*/
+}
+
+.MOTORCYCLE {
+    text-indent: 25%; /*espaço da letra*/
+}
+
+body {
+    background-color: black; /*cor do fundo*/
+    font-family: 'Courier New', Courier, monospace; /*fonte da letra*/
+    color: aliceblue;
+}
+
+.cab{
+    padding: 3%; /*espaço para todos os lados*/
+}
+
+.Nm {
+    padding-left: 4%;
+    padding-top: 1%;
+}
+
+.search-box-input {
+    outline: 0;
+    font-size: 1.2em;
+    color: #000000;
+    width: 150;
+    padding: 0;
+    border: red;
+    transition: .45s;
+}
+
+.carro {
+    padding-left: 2%;
+    padding-top: 2%;
+    display: flex;
+}
+
+.nc {
+    padding-left: 8%;
+}
+
+.inf {
+    padding: 2%;
+    text-shadow: rgb(255, 0, 0) 1px 0 10px; /*cor em volta da letra*/
+}
+
+.visita {
+    padding-left: 2%;
+    padding-top: 2%;
+    display: flex;
+}
+
+.celular {
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
